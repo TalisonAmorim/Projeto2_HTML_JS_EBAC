@@ -70,6 +70,10 @@ body {
     margin-bottom: 20px;
   }
 
+  .about-container p a:hover{
+    color: #353400;
+  }
+
   .form-container input {
     width: calc(100% - 16px);
     padding: 8px;
