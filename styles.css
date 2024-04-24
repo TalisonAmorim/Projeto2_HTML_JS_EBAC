@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Images/agendaFundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    position: relative; 
+    background-color: rgba(0, 0, 0, 0.849); 
+    }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    overflow: hidden;
+  }
+  
+  header nav {
+    float: right; 
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px; 
+  }
+  
+  header nav ul li:first-child {
+    margin-left: 0; 
+  }
+  
+  header nav ul li a {
+    color: #ada9a9;;
+    text-decoration: none;
+    transition: color 0.3s; 
+  }
+
+  header nav ul li a:hover {
+    color: #f1e2a3f8; /* Define a cor quando o mouse estiver sobre o link */
+  }
+
+  header img {
+    float: left; 
+    height: 60px; 
+    margin-right: 20px; 
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-container,
+  .table-container,
+  .about-container {
+    background-color: #f1e1a3fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .form-container input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  form input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #353400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  form button:hover {
+    background-color:#35340050; 
+}
+  
+  .aviso {
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+  .table-container {
+    background-color: #f1e1a3fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto; 
+    width:60%
+  }
+  
+  #contatosTable {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  #contatosTable th,
+  #contatosTable td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+  }
+  
+  #contatosTable th {
+    background-color: #f2f2f2; 
+    text-align: left; 
+  }
+
+  #nomeTab{
+    width: 70%;
+  }
+
+
+  .icoRedes {
+    margin: 0 10px;
+    color: #c0c0c0; 
+    transition: color 0.3s; 
+}
+
+.icoRedes:hover {
+    color: #f1e2a3f8; 
+}
+
+.sectionsInsert{
+    min-height: 100vh; 
+}
+
+.sectionsDados{
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+footer {
+    margin-top: 20px;
+    color: #ada9a9;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer .redes {
+    margin-bottom: 10px;
+  }
+  
+  footer .redes a {
+    margin-right: 10px;
+  }
+  
+  footer .redes a img {
+    width: 30px;
+    height: 30px;
+  }
