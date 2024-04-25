@@ -38,4 +38,10 @@ document.getElementById('contatoForm').addEventListener('submit', function(event
     // Atualize a ordem das linhas na tabela
     linhas.forEach(linha => tabela.appendChild(linha));
   }
+
+  function expandirImagem() {
+    var imagem = document.getElementById("imagem");
+    imagem.classList.toggle("expandida");
+  }
+  
   
